@@ -1,0 +1,39 @@
+Ejemplo 01
+
+🎼 Stay - Rihanna & Mikky Ekko
+Características:
+Título: Stay
+Artista: Rihanna, Mikky Ekko
+Duración: 4:00
+Género: Pop
+Año: 2013
+
+Comportamiento:
+Reproducir
+Pausar
+Detener
+Subir volumen
+Bajar volumen
+Repetir
+
+Identidad:
+- Stay, Rihanna & Mikky Ekko, Pop, 2013
+
+🎼 Stay - The Kid LAROI & Justin Bieber
+Características:
+Título: Stay
+Artista: The Kid LAROI, Justin Bieber
+Duración: 2:21
+Género: Pop, Hip-hop
+Año: 2021
+
+Comportamiento:
+Reproducir
+Pausar
+Detener
+Subir volumen
+Bajar volumen
+Repetir
+
+Identidad:
+- Stay, The Kid LAROI & Justin Bieber, Pop / Hip-hop, 2021
