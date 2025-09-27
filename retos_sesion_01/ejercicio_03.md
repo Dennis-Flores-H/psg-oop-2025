@@ -27,10 +27,9 @@ Características:
     - tamaño
     - tipoOrejas
     - accesorios
-- Dibujo
-    - formato (PNG o JPG)
 
 Acciones:
+- agregarAccesorio()
 - descargar(formato)
 
 # Diseño:
@@ -45,6 +44,7 @@ Clases:
         - tipoOrejas
         - accesorios
     - Métodos:
+        - agregarAccesorio()
         - descargar(formato)
 
 ```mermaid
@@ -55,6 +55,7 @@ classDiagram
         tamaño
         tipoOrejas
         accesorios
+        +agregarAccesorio()
         +descargar(formato)
     }
 ```
