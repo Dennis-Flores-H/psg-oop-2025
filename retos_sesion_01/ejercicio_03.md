@@ -19,7 +19,6 @@ Requisitos:
 
 Objetos:
 - Perro
-- Dibujo
 
 Características:
 - Perro
@@ -31,9 +30,8 @@ Características:
 - Dibujo
     - formato (PNG o JPG)
 
-
 Acciones:
-- (No hay acciones)
+- descargar(formato)
 
 # Diseño:
 
@@ -47,24 +45,16 @@ Clases:
         - tipoOrejas
         - accesorios
     - Métodos:
-        - (No hay métodos)
-- Dibujo 🎨:
-    - Nombre: Dibujo
-    - Atributos:
-        - formato
-    - Métodos:
-        - (No hay métodos)
+        - descargar(formato)
 
 ```mermaid
 classDiagram
-    class Perro {
+     class Perro {
         raza
         colorPelaje
         tamaño
         tipoOrejas
         accesorios
-    }
-    class Dibujo {
-        formato
+        +descargar(formato)
     }
 ```
