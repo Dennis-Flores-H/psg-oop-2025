@@ -38,37 +38,36 @@ Objetos:
 - Oficina
 
 Características:
+- Edificio:
+    - nombre: String
+    - direccion: String
+    - pisos: List[Piso]
 
-Edificio:
-- nombre: String
-- direccion: String
-- pisos: List[Piso]
+- Piso:
+    - numero: int
+    - departamentos: List[Departamento]
+    - oficinas: List[Oficina]
 
-Piso:
-- numero: int
-- departamentos: List[Departamento]
-- oficinas: List[Oficina]
+- Departamento:
+    - numero: int
+    - inquilinos: List[str]
 
-Departamento:
-- numero: int
-- inquilinos: List[str]
-
-Oficina:
-- numero: str
-- telefono: str
+- Oficina:
+    - numero: str
+    - telefono: str
 
 Acciones:
 
-Edificio:
-- mostrar_informacion()
+- Edificio:
+    - mostrar_informacion()
 
-Piso:
-- agregar_departamento(dep)
-- agregar_oficina(ofi)
-- mostrar_detalles()
+- Piso:
+    - agregar_departamento(dep)
+    - agregar_oficina(ofi)
+    - mostrar_detalles()
 
-Departamento y Oficina:
--   info()
+- Departamento y Oficina:
+    -   info()
 
 ```mermaid
 classDiagram
