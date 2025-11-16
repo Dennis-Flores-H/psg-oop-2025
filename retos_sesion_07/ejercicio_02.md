@@ -54,3 +54,4 @@ classDiagram
     Instrumento <|-- Guitarra
     Instrumento <|-- Piano
     Instrumento <|-- Tambor
+```

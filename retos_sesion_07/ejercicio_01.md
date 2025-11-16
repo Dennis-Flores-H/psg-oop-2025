@@ -44,4 +44,5 @@ classDiagram
         -tamaño: float
         -material: String
         +usar()
-    }
+    }   
+```
