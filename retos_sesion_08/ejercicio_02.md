@@ -25,22 +25,22 @@
 
 ## Características
 - Destino
- - nombre: String  
- - costo: número (entero o decimal)
+    - nombre: String  
+    - costo: número (entero o decimal)
 
 - Catalogo
- - destinos: lista de objetos Destino
+    - destinos: lista de objetos Destino
 
 ## Acciones
 - Destino:
- - __str__()              representación
+    - __str__()              representación
 - Catalogo: 
- - __str__()              representación_catalogo
- - __len__()              cantidad_destinos
- - __getitem__(indice)    obtener_destino
- - __setitem__(indice)    modificar_destino
- - __delitem__(indice)    eliminar_destino
- - __iter__()             recorrer_destinos
+    - __str__()              representación_catalogo
+    - __len__()              cantidad_destinos
+    - __getitem__(indice)    obtener_destino
+    - __setitem__(indice)    modificar_destino
+    - __delitem__(indice)    eliminar_destino
+    - __iter__()             recorrer_destinos
 
 # Diagrama de clases
 
