@@ -7,7 +7,7 @@
 - Mostrar cada destino con el formato textual: "[nombre] ➡ [costo] USD".
 - Mantener una colección de destinos dentro de un catálogo de viajes.
 - Mostrar el catálogo con el formato:
-🗺 Destinos 🗺
+<br>🗺 Destinos 🗺
 1. destino1
 2. destino2
 - Permitir conocer cuántos destinos hay en el catálogo.
