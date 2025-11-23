@@ -26,8 +26,8 @@ Cada fracción tiene un numerador y un denominador.
 
 ## Características
 - Fraccion: 
-    - numerador: entero  
-    - denominador: entero
+    - numerador: int  
+    - denominador: int
 
 ## Acciones
  - __str__()            representacion
