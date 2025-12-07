@@ -13,7 +13,7 @@
 - Todos los helados se pueden comer.
 
 ## Objetos
-- Helado (Vainilla, Chocolate)
+- Helado (HeladoVainilla, HeladoChocolate)
 - Maquina (MaquinaVainilla, MaquinaChocolate)
 - Encargado
 
@@ -22,11 +22,11 @@
     - sabor
     - envase
 
--  Vainilla:
+- HeladoVainilla:
     - sabor: vainilla
     - envase: cono/vaso
 
-- Chocolate:
+- HeladoChocolate:
     - sabor: chocolate
     - envase: cono/vaso
 
@@ -46,9 +46,9 @@
 
 - Helado:
     - comer() → el cliente come el helado.
--  Vainilla: 
+-  HeladoVainilla: 
     - comer()
-- Chocolate:
+- HeladoChocolate:
     - comer()
 
 - Maquina:
