@@ -20,28 +20,28 @@
 ## Características
 
 ### Helado:
-- sabor
-- envase
+    - sabor
+    - envase
 
-### HeladoVainilla:
-- sabor: vainilla
-- envase: cono/vaso
+-  Vainilla:
+    - sabor: vainilla
+    - envase: cono/vaso
 
-### HeladoChocolate:
-- sabor: chocolate
-- envase: cono/vaso
+- Chocolate:
+    - sabor: chocolate
+    - envase: cono/vaso
 
 ### Maquina:
-- tipo_helado
+    - tipo_helado
 
-### MaquinaVainilla:
-- tipo_helado: vainilla
+- MaquinaVainilla:
+    - tipo_helado: vainilla
 
-### MaquinaChocolate:
-- tipo_helado: chocolate
+- MaquinaChocolate:
+    - tipo_helado: chocolate
 
 ### Encargado:
-- nombre
+    - nombre
 
 ## Acciones
 
