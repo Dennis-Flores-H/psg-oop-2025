@@ -18,8 +18,7 @@
 - Encargado
 
 ## Características
-
-### Helado:
+- Helado:
     - sabor
     - envase
 
@@ -31,7 +30,7 @@
     - sabor: chocolate
     - envase: cono/vaso
 
-### Maquina:
+- Maquina:
     - tipo_helado
 
 - MaquinaVainilla:
@@ -40,25 +39,30 @@
 - MaquinaChocolate:
     - tipo_helado: chocolate
 
-### Encargado:
+- Encargado:
     - nombre
 
 ## Acciones
 
-### Helado:
-- comer() → el cliente come el helado.
+- Helado:
+    - comer() → el cliente come el helado.
+-  Vainilla: 
+    - comer()
+- Chocolate:
+    - comer()
 
-### Maquina:
-- preparar() → prepara el helado solicitado.
+- Maquina:
+    - preparar(sabor: str, envase: str) → prepara el helado solicitado según el sabor y el tipo de envase.
 
-### MaquinaVainilla:
-- preparar() → prepara helado de vainilla.
+- MaquinaVainilla:
+    - preparar(envase: str) → prepara helado de vainilla con el tipo de envase solicitado.
 
-### MaquinaChocolate:
-- preparar() → prepara helado de chocolate.
+- MaquinaChocolate:
+    - preparar(envase: str) → prepara helado de chocolate con el tipo de envase solicitado.
 
-### Encargado:
-- tomar_pedido() → recibe el pedido del cliente y crea el helado correspondiente.
+- Encargado:
+    - tomar_pedido(sabor: str, envase: str) → recibe el pedido del cliente y crea el helado correspondiente según el sabor y el envase solicitados.
+
 
 ---
 
@@ -113,7 +117,7 @@
 
 - **Encargado:**
     - **Nombre:** Encargado
-    - **Atributos:**
+    - **Atributos:** 
         - nombre
     - **Métodos:**
         - tomar_pedido()
@@ -121,7 +125,6 @@
 ---
 
 # Diagrama de clases
-
 ```mermaid
 classDiagram
     class Helado {
@@ -141,19 +144,19 @@ classDiagram
     }
     class Maquina {
         -tipo_helado
-        +preparar()
+        +preparar(sabor: str, envase: str)
     }
     class MaquinaVainilla {
         -tipo_helado: vainilla
-        +preparar()
+        +preparar(envase: str)
     }
     class MaquinaChocolate {
         -tipo_helado: chocolate
-        +preparar()
+        +preparar(envase: str)
     }
     class Encargado {
         -nombre
-        +tomar_pedido()
+        +tomar_pedido(sabor: str, envase: str)
     }
     Helado <|-- HeladoVainilla
     Helado <|-- HeladoChocolate
